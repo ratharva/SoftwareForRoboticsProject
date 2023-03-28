@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/jackal/jackal_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs
+[0.025s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+[0.044s] -- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+[0.204s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.210s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.364s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found version "3.9.13") 
+[0.396s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.397s]   execute_process(/home/atharva/anaconda3/bin/python3 -m rosidl_adapter
+[0.397s]   --package-name jackal_msgs --arguments-file
+[0.397s]   /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_msgs/rosidl_adapter__arguments__jackal_msgs.json
+[0.397s]   --output-dir
+[0.397s]   /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs
+[0.397s]   --output-file
+[0.397s]   /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs.idls)
+[0.397s]   returned error code 1:
+[0.397s] 
+[0.397s]   Traceback (most recent call last):
+[0.397s] 
+[0.397s]     File "/home/atharva/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.397s]       return _run_code(code, main_globals, None,
+[0.397s]     File "/home/atharva/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.397s]       exec(code, run_globals)
+[0.397s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.397s]       sys.exit(main())
+[0.397s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.398s]       abs_idl_file = convert_to_idl(
+[0.398s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.398s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.398s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.398s]       from rosidl_adapter.resource import expand_template
+[0.398s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.398s]       import em
+[0.398s] 
+[0.398s]   ModuleNotFoundError: No module named 'em'
+[0.398s] 
+[0.398s] Call Stack (most recent call first):
+[0.398s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.398s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.398s] 
+[0.398s] 
+[0.398s] -- Configuring incomplete, errors occurred!
+[0.398s] See also "/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_msgs/CMakeFiles/CMakeOutput.log".

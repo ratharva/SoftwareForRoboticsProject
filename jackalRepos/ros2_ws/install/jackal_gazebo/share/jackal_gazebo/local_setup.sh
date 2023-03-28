@@ -1,0 +1,1 @@
+/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/build/jackal_gazebo/ament_cmake_environment_hooks/local_setup.sh

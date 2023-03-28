@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/launch/gazebo.launch.py
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/launch/jackal_world.launch.py
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/worlds/jackal_race.world
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/worlds/scenario1.world
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/ament_index/resource_index/package_run_dependencies/jackal_gazebo
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/ament_index/resource_index/parent_prefix_path/jackal_gazebo
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/environment/path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/environment/path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/local_setup.bash
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/local_setup.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/local_setup.zsh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/local_setup.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/ament_index/resource_index/packages/jackal_gazebo
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/cmake/jackal_gazeboConfig.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/cmake/jackal_gazeboConfig-version.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.xml

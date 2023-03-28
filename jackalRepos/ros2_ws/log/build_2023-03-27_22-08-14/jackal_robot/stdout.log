@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/atharva/anaconda3/envs/rosEnv/bin/python3 (found suitable version "3.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/envs/rosEnv/bin/python3
+-- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found jackal_msgs: 1.0.3 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_msgs/share/jackal_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/build/jackal_robot
+[35m[1mScanning dependencies of target jackal_hardware[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/jackal_hardware.dir/src/jackal_hardware_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/jackal_hardware.dir/src/jackal_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libjackal_hardware.so[0m
+[100%] Built target jackal_hardware
+-- Install configuration: ""
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/jackal_hardware.xml
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/pythonpath.sh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/pythonpath.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/python3.10/site-packages/jackal_robot
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/python3.10/site-packages/jackal_robot/__init__.py
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/python3.10/site-packages/jackal_robot/diagnostics_updater
+Listing '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/python3.10/site-packages/jackal_robot'...
+Compiling '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/python3.10/site-packages/jackal_robot/__init__.py'...
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/libjackal_hardware.so
+-- Set runtime path of "/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/libjackal_hardware.so" to ""
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/include
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/include/jackal_hardware
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/include/jackal_hardware/jackal_hardware.hpp
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/include/jackal_hardware/jackal_hardware_interface.hpp
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/launch
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/launch/diagnostics.launch.py
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/launch/accessories.launch.py
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/launch/bringup.launch.py
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/config
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/config/diagnostics.yaml
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/jackal_robot/install
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/jackal_robot/uninstall
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/lib/jackal_robot/diagnostics_updater
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/library_path.sh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/library_path.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/ament_index/resource_index/package_run_dependencies/jackal_robot
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/ament_index/resource_index/parent_prefix_path/jackal_robot
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/ament_prefix_path.sh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/path.sh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/environment/path.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/local_setup.bash
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/local_setup.sh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/local_setup.zsh
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/local_setup.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/package.dsv
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/ament_index/resource_index/packages/jackal_robot
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jackal_robot
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/cmake/jackal_robotConfig.cmake
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/cmake/jackal_robotConfig-version.cmake
+-- Installing: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_robot/share/jackal_robot/package.xml
