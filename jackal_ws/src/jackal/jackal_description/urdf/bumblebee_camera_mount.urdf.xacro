@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="bumblebee_camera_mount">
+
+  <xacro:include filename="$(find bumblebee_description)/urdf/bumblebee.urdf.xacro"/>
+
+  <link name="bumblebee_camera_mount">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.1 0.05"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="bumblebee_camera_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.08"/>
+    <parent link="bumblebee_camera_mount"/>
+    <child link="bumblebee_link"/>
+  </joint>
+
+</robot>
