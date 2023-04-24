@@ -1,0 +1,51 @@
+CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/home/atharva/anaconda3/envs/rosEnvClone/bin/python3 -m
+  rosidl_adapter --package-name slam_toolbox --arguments-file
+  /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/slam_ws/build/slam_toolbox/rosidl_adapter__arguments__slam_toolbox.json
+  --output-dir
+  /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/slam_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox
+  --output-file
+  /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/slam_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox.idls)
+  returned error code 1:
+
+  AttributeError processing template 'srv.idl.em'
+
+  Traceback (most recent call last):
+
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 48, in evaluate_template
+      _interpreter = em.Interpreter(
+
+  AttributeError: module 'em' has no attribute 'Interpreter'
+
+  
+
+  During handling of the above exception, another exception occurred:
+
+  
+
+  Traceback (most recent call last):
+
+    File "/home/atharva/anaconda3/envs/rosEnvClone/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/home/atharva/anaconda3/envs/rosEnvClone/lib/python3.8/runpy.py", line 87, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+      return convert_srv_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 39, in convert_srv_to_idl
+      expand_template('srv.idl.em', data, output_file, encoding='iso-8859-1')
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+      content = evaluate_template(template_name, data)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+      _interpreter.shutdown()
+
+  AttributeError: 'NoneType' object has no attribute 'shutdown'
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:96 (rosidl_generate_interfaces)
+
+

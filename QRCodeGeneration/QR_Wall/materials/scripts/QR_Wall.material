@@ -1,0 +1,14 @@
+material vrc/QR_Wall
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TempQr.png
+			}
+		}
+	}
+}

@@ -1,0 +1,208 @@
+CMake Warning at CMakeLists.txt:163 (add_library):
+  Cannot generate a safe runtime search path for target lifelong_slam_toolbox
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:140 (add_library):
+  Cannot generate a safe runtime search path for target toolbox_common
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:112 (add_library):
+  Cannot generate a safe runtime search path for target SlamToolboxPlugin
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:153 (add_library):
+  Cannot generate a safe runtime search path for target sync_slam_toolbox
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:155 (add_executable):
+  Cannot generate a safe runtime search path for target
+  sync_slam_toolbox_node because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:129 (add_library):
+  Cannot generate a safe runtime search path for target ceres_solver_plugin
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:160 (add_executable):
+  Cannot generate a safe runtime search path for target
+  localization_slam_toolbox_node because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:148 (add_library):
+  Cannot generate a safe runtime search path for target async_slam_toolbox
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  slam_toolbox__rosidl_typesupport_fastrtps_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:96 (rosidl_generate_interfaces)
+
+
+CMake Warning at CMakeLists.txt:150 (add_executable):
+  Cannot generate a safe runtime search path for target
+  async_slam_toolbox_node because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:158 (add_library):
+  Cannot generate a safe runtime search path for target
+  localization_slam_toolbox because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:165 (add_executable):
+  Cannot generate a safe runtime search path for target
+  lifelong_slam_toolbox_node because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:169 (add_executable):
+  Cannot generate a safe runtime search path for target merge_maps_kinematic
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/atharva/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+  142 |     QMetaObject::[01;31m[KSuperData[m[K::link<rviz_common::Panel::staticMetaObject>(),
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  142 |     QMetaObject::SuperData::link<rviz_common::Panel::staticMetaObject>([01;31m[K)[m[K,
+      |                                                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/SlamToolboxPlugin.dir/build.make:80: CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:309: CMakeFiles/SlamToolboxPlugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

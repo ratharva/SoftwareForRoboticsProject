@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:23 (target_link_libraries):
+  Cannot specify link libraries for target "qr_webcam" which is not built by
+  this project.
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

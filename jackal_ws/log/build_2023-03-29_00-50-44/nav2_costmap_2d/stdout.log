@@ -1,0 +1,70 @@
+[  8%] Built target gtest_main
+[  8%] Built target gtest
+[ 35%] Built target nav2_costmap_2d_core
+[ 39%] Built target array_parser_test
+[ 43%] Built target nav2_costmap_2d_markers
+[ 47%] Built target nav2_costmap_2d_cloud
+[ 52%] Built target collision_footprint_test
+[ 60%] Built target nav2_costmap_2d_client
+[ 75%] Built target layers
+[ 87%] Built target footprint_tests_exec
+[ 87%] Built target inflation_tests_exec
+[ 87%] Built target obstacle_tests_exec
+[ 91%] Built target nav2_costmap_2d
+[100%] Built target test_collision_checker_exec
+[100%] Built target range_tests_exec
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/liblayers.so
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+-- Up-to-date symlink: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml

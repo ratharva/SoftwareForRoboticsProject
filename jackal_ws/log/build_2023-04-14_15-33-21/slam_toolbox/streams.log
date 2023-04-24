@@ -1,0 +1,40 @@
+[0.024s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox -- -j16 -l16
+[0.070s] [  1%] Built target slam_toolbox__cpp
+[0.080s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[0.088s] [ 12%] Built target kartoSlamToolbox
+[0.102s] [ 21%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[0.109s] [ 30%] Built target slam_toolbox__rosidl_typesupport_cpp
+[0.110s] [ 39%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[0.111s] [ 48%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[0.112s] [ 57%] Built target slam_toolbox__rosidl_typesupport_c
+[0.143s] [ 66%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[0.160s] [ 66%] Built target slam_toolbox
+[0.168s] [35m[1mScanning dependencies of target toolbox_common[0m
+[0.168s] [35m[1mScanning dependencies of target ceres_solver_plugin[0m
+[0.180s] [ 67%] Built target slam_toolbox__py
+[0.206s] [ 68%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o[0m
+[0.213s] [ 76%] Built target slam_toolbox__python
+[0.242s] [ 77%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[0.246s] [ 78%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[0.251s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[0.252s] [ 80%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[0.335s] [ 82%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[0.336s] [ 82%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[0.336s] [ 82%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[0.337s] [ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[0.337s] [ 84%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[3.622s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+[3.623s]   142 |     QMetaObject::[01;31m[KSuperData[m[K::link<rviz_common::Panel::staticMetaObject>(),
+[3.623s]       |                  [01;31m[K^~~~~~~~~[m[K
+[3.623s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.623s]   142 |     QMetaObject::SuperData::link<rviz_common::Panel::staticMetaObject>([01;31m[K)[m[K,
+[3.623s]       |                                                                        [01;31m[K^[m[K
+[4.357s] make[2]: *** [CMakeFiles/SlamToolboxPlugin.dir/build.make:80: CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o] Error 1
+[4.357s] make[1]: *** [CMakeFiles/Makefile2:309: CMakeFiles/SlamToolboxPlugin.dir/all] Error 2
+[4.357s] make[1]: *** Waiting for unfinished jobs....
+[13.228s] [ 85%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[13.624s] [ 85%] Built target ceres_solver_plugin
+[26.986s] [ 86%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[27.520s] [ 86%] Built target toolbox_common
+[27.521s] make: *** [Makefile:141: all] Error 2
+[27.523s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox -- -j16 -l16

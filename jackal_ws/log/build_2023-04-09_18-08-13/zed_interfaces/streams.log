@@ -1,0 +1,16 @@
+[0.028s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_interfaces -- -j16 -l16
+[0.071s] [  0%] Built target zed_interfaces__cpp
+[0.073s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[0.096s] [ 36%] Built target zed_interfaces__rosidl_typesupport_cpp
+[0.096s] [ 36%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[0.100s] [ 48%] Built target zed_interfaces__rosidl_typesupport_c
+[0.101s] [ 60%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.102s] [ 72%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[0.125s] [ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[0.139s] [ 84%] Built target zed_interfaces
+[0.155s] [ 85%] Built target zed_interfaces__py
+[0.181s] [ 96%] Built target zed_interfaces__python
+[0.199s] [ 98%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.205s] [ 99%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[0.205s] [100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.215s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_interfaces -- -j16 -l16

@@ -1,0 +1,148 @@
+[0.191s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_rviz_plugins
+[0.488s] -- The C compiler identification is GNU 9.4.0
+[0.741s] -- The CXX compiler identification is GNU 9.4.0
+[0.742s] -- Check for working C compiler: /usr/bin/cc
+[1.118s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.119s] -- Detecting C compiler ABI info
+[1.264s] -- Detecting C compiler ABI info - done
+[1.277s] -- Detecting C compile features
+[1.281s] -- Detecting C compile features - done
+[1.284s] -- Check for working CXX compiler: /usr/bin/c++
+[1.711s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.713s] -- Detecting CXX compiler ABI info
+[2.096s] -- Detecting CXX compiler ABI info - done
+[2.129s] -- Detecting CXX compile features
+[2.130s] -- Detecting CXX compile features - done
+[2.137s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.239s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+[2.241s] -- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+[2.664s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.748s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.893s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.324s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.446s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.075s] -- Found nav2_util: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/share/nav2_util/cmake)
+[5.005s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.011s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.015s] -- Looking for pthread.h
+[5.440s] -- Looking for pthread.h - found
+[5.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.807s] -- Looking for pthread_create in pthreads
+[6.154s] -- Looking for pthread_create in pthreads - not found
+[6.154s] -- Looking for pthread_create in pthread
+[6.420s] -- Looking for pthread_create in pthread - found
+[6.421s] -- Found Threads: TRUE  
+[7.783s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.790s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.110s] -- Found nav2_lifecycle_manager: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[8.597s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[8.770s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[8.801s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.811s] -- Found OGRE
+[8.812s] --   static     : OFF
+[8.812s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.812s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.812s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.812s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.812s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[8.812s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.813s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[8.820s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.820s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.820s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.821s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.896s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.911s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[9.249s] -- Found X11: /usr/include   
+[9.253s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[9.631s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[9.631s] -- Looking for gethostbyname
+[9.888s] -- Looking for gethostbyname - found
+[9.888s] -- Looking for connect
+[10.113s] -- Looking for connect - found
+[10.113s] -- Looking for remove
+[10.249s] -- Looking for remove - found
+[10.250s] -- Looking for shmat
+[10.418s] -- Looking for shmat - found
+[10.418s] -- Looking for IceConnectionNumber in ICE
+[10.599s] -- Looking for IceConnectionNumber in ICE - found
+[10.606s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[10.608s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.625s] -- library: libassimp.so.5
+[10.802s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[11.058s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[11.068s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[12.478s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.605s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.606s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.607s] -- Configured cppcheck include dirs: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_rviz_plugins/include
+[12.607s] -- Configured cppcheck exclude dirs and/or files: 
+[12.608s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.608s] -- Configured cpplint exclude dirs and/or files: 
+[12.609s] -- Added test 'lint_cmake' to check CMake code style
+[12.610s] -- Added test 'uncrustify' to check C / C++ code style
+[12.610s] -- Configured uncrustify additional arguments: 
+[12.610s] -- Added test 'xmllint' to check XML markup files
+[12.616s] -- Configuring done
+[12.672s] CMake Warning at CMakeLists.txt:48 (add_library):
+[12.673s]   Cannot generate a safe runtime search path for target nav2_rviz_plugins
+[12.673s]   because files in some directories may conflict with libraries in implicit
+[12.673s]   directories:
+[12.673s] 
+[12.673s]     runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[12.673s]       /home/atharva/anaconda3/lib
+[12.673s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[12.673s]       /home/atharva/anaconda3/lib
+[12.673s]     runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[12.673s]       /home/atharva/anaconda3/lib
+[12.673s] 
+[12.673s]   Some of these libraries may not be found correctly.
+[12.674s] 
+[12.674s] 
+[12.691s] -- Generating done
+[12.693s] -- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins
+[12.713s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_rviz_plugins
+[12.716s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins -- -j16 -l16
+[12.766s] [35m[1mScanning dependencies of target nav2_rviz_plugins_autogen[0m
+[12.775s] [ 20%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[13.377s] [ 20%] Built target nav2_rviz_plugins_autogen
+[13.388s] [35m[1mScanning dependencies of target nav2_rviz_plugins[0m
+[13.511s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[13.512s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[13.513s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[14.442s] In file included from [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/mocs_compilation.cpp:2[m[K:
+[14.442s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:93:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+[14.442s]    93 |     QMetaObject::[01;31m[KSuperData[m[K::link<QObject::staticMetaObject>(),
+[14.442s]       |                  [01;31m[K^~~~~~~~~[m[K
+[14.442s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:93:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[14.442s]    93 |     QMetaObject::SuperData::link<QObject::staticMetaObject>([01;31m[K)[m[K,
+[14.442s]       |                                                             [01;31m[K^[m[K
+[14.754s] In file included from [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/mocs_compilation.cpp:3[m[K:
+[14.755s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+[14.755s]    67 |     QMetaObject::[01;31m[KSuperData[m[K::link<rviz_default_plugins::tools::PoseTool::staticMetaObject>(),
+[14.755s]       |                  [01;31m[K^~~~~~~~~[m[K
+[14.755s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:67:91:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[14.755s]    67 | ink<rviz_default_plugins::tools::PoseTool::staticMetaObject>([01;31m[K)[m[K,
+[14.755s]       |                                                              [01;31m[K^[m[K
+[14.755s] 
+[19.019s] In file included from [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/mocs_compilation.cpp:4[m[K:
+[19.019s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:118:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+[19.020s]   118 |     QMetaObject::[01;31m[KSuperData[m[K::link<rviz_common::Panel::staticMetaObject>(),
+[19.021s]       |                  [01;31m[K^~~~~~~~~[m[K
+[19.021s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:118:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[19.022s]   118 |     QMetaObject::SuperData::link<rviz_common::Panel::staticMetaObject>([01;31m[K)[m[K,
+[19.023s]       |                                                                        [01;31m[K^[m[K
+[19.027s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:256:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+[19.028s]   256 |     QMetaObject::[01;31m[KSuperData[m[K::link<QThread::staticMetaObject>(),
+[19.028s]       |                  [01;31m[K^~~~~~~~~[m[K
+[19.029s] [01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins/nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:256:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[19.030s]   256 |     QMetaObject::SuperData::link<QThread::staticMetaObject>([01;31m[K)[m[K,
+[19.031s]       |                                                             [01;31m[K^[m[K
+[22.446s] make[2]: *** [CMakeFiles/nav2_rviz_plugins.dir/build.make:63: CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o] Error 1
+[22.446s] make[2]: *** Waiting for unfinished jobs....
+[32.750s] make[1]: *** [CMakeFiles/Makefile2:106: CMakeFiles/nav2_rviz_plugins.dir/all] Error 2
+[32.755s] make: *** [Makefile:141: all] Error 2
+[32.759s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins' returned '2': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_lifecycle_manager/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_rviz_plugins -- -j16 -l16

@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing jackal_gazebo.egg-info/PKG-INFO
+writing dependency_links to jackal_gazebo.egg-info/dependency_links.txt
+writing entry points to jackal_gazebo.egg-info/entry_points.txt
+writing requirements to jackal_gazebo.egg-info/requires.txt
+writing top-level names to jackal_gazebo.egg-info/top_level.txt
+reading manifest file 'jackal_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'jackal_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages/jackal-gazebo.egg-link (link to .)
+Installing qr_webcam script to /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/bin
+
+Installed /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo

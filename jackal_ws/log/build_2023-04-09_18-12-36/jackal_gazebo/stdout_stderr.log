@@ -1,0 +1,11 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+CMake Error: Cannot determine link language for target "qr_webcam".
+CMake Error: CMake can not determine linker language for target: qr_webcam
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

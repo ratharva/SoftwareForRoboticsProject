@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/envs/rosEnv/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/build/jackal_viz
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/launch/view_diagnostics.launch.py
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/launch/view_model.launch.py
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/launch/view_robot.launch.py
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/rviz/model.rviz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/rviz/nav2.rviz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/rviz/slam.rviz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/rqt/diagnostics.perspective
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/ament_index/resource_index/package_run_dependencies/jackal_viz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/ament_index/resource_index/parent_prefix_path/jackal_viz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/environment/ament_prefix_path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/environment/ament_prefix_path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/environment/path.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/environment/path.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/local_setup.bash
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/local_setup.sh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/local_setup.zsh
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/local_setup.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/package.dsv
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/ament_index/resource_index/packages/jackal_viz
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/cmake/jackal_vizConfig.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/cmake/jackal_vizConfig-version.cmake
+-- Symlinking: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackalRepos/ros2_ws/install/jackal_viz/share/jackal_viz/package.xml
