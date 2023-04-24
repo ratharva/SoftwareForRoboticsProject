@@ -1,0 +1,1 @@
+/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/dwb_msgs/rosidl_cmake/srv/GetCriticScore_Response.msg

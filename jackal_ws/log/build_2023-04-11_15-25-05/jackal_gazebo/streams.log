@@ -1,0 +1,17 @@
+[0.471s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo/prefix_override:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo/build --no-deps
+[0.639s] running develop
+[0.729s] running egg_info
+[0.729s] writing jackal_gazebo.egg-info/PKG-INFO
+[0.730s] writing dependency_links to jackal_gazebo.egg-info/dependency_links.txt
+[0.730s] writing entry points to jackal_gazebo.egg-info/entry_points.txt
+[0.730s] writing requirements to jackal_gazebo.egg-info/requires.txt
+[0.730s] writing top-level names to jackal_gazebo.egg-info/top_level.txt
+[0.751s] package init file 'jackal_simulator/jackal_gazebo/src/__init__.py' not found (or not a regular file)
+[0.751s] reading manifest file 'jackal_gazebo.egg-info/SOURCES.txt'
+[0.751s] writing manifest file 'jackal_gazebo.egg-info/SOURCES.txt'
+[0.773s] running build_ext
+[0.773s] Creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages/jackal-gazebo.egg-link (link to .)
+[0.774s] Installing qr_webcam script to /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/bin
+[0.774s] 
+[0.774s] Installed /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo
+[0.808s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo/prefix_override:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo/build --no-deps

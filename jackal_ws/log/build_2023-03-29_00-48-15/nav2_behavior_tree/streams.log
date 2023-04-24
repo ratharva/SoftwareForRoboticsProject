@@ -1,0 +1,265 @@
+[0.051s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_behavior_tree
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.113s] -- Check for working CXX compiler: /usr/bin/c++
+[0.182s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.183s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.300s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+[0.300s] -- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+[0.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.569s] -- Found nav2_common: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/share/nav2_common/cmake)
+[0.572s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.780s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.817s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.954s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.956s] -- Looking for C++ include pthread.h
+[1.025s] -- Looking for C++ include pthread.h - found
+[1.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.098s] -- Looking for pthread_create in pthreads
+[1.158s] -- Looking for pthread_create in pthreads - not found
+[1.158s] -- Looking for pthread_create in pthread
+[1.230s] -- Looking for pthread_create in pthread - found
+[1.231s] -- Found Threads: TRUE  
+[1.375s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.442s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.469s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.498s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.562s] -- Found nav2_msgs: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.831s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.060s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.067s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.071s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.093s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.100s] -- Found nav2_util: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/share/nav2_util/cmake)
+[2.238s] -- Setting build type to Release as none was specified.
+[7.978s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.122s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[8.127s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.170s] -- The C compiler identification is GNU 9.4.0
+[8.174s] -- Check for working C compiler: /usr/bin/cc
+[8.238s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.239s] -- Detecting C compiler ABI info
+[8.308s] -- Detecting C compiler ABI info - done
+[8.327s] -- Detecting C compile features
+[8.327s] -- Detecting C compile features - done
+[8.330s] -- Check if compiler accepts -pthread
+[8.440s] -- Check if compiler accepts -pthread - yes
+[12.788s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.791s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.793s] -- Configured cppcheck include dirs: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_behavior_tree/include
+[12.793s] -- Configured cppcheck exclude dirs and/or files: 
+[12.797s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.798s] -- Configured cpplint exclude dirs and/or files: 
+[12.800s] -- Added test 'lint_cmake' to check CMake code style
+[12.804s] -- Added test 'uncrustify' to check C / C++ code style
+[12.804s] -- Configured uncrustify additional arguments: 
+[12.805s] -- Added test 'xmllint' to check XML markup files
+[12.811s] -- Configuring done
+[13.771s] -- Generating done
+[13.778s] -- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_behavior_tree
+[13.812s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_behavior_tree
+[13.815s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_behavior_tree -- -j16 -l16
+[13.862s] [35m[1mScanning dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[13.862s] [35m[1mScanning dependencies of target nav2_transform_available_condition_bt_node[0m
+[13.862s] [35m[1mScanning dependencies of target nav2_spin_action_bt_node[0m
+[13.864s] [35m[1mScanning dependencies of target nav2_behavior_tree[0m
+[13.864s] [35m[1mScanning dependencies of target nav2_goal_updater_node_bt_node[0m
+[13.864s] [35m[1mScanning dependencies of target nav2_follow_path_action_bt_node[0m
+[13.868s] [35m[1mScanning dependencies of target nav2_goal_updated_condition_bt_node[0m
+[13.868s] [35m[1mScanning dependencies of target nav2_goal_reached_condition_bt_node[0m
+[13.873s] [35m[1mScanning dependencies of target nav2_pipeline_sequence_bt_node[0m
+[13.873s] [35m[1mScanning dependencies of target nav2_is_stuck_condition_bt_node[0m
+[13.892s] [35m[1mScanning dependencies of target nav2_wait_action_bt_node[0m
+[13.896s] [35m[1mScanning dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[13.912s] [35m[1mScanning dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[13.912s] [35m[1mScanning dependencies of target nav2_time_expired_condition_bt_node[0m
+[13.919s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[13.933s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[13.938s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[13.940s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[13.944s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[13.960s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[13.969s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[13.983s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[13.986s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[14.002s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[14.003s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[14.003s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[14.016s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[14.071s] [35m[1mScanning dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[14.074s] [35m[1mScanning dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[14.088s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[14.205s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[14.237s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[17.558s] [ 17%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[18.068s] [ 17%] Built target nav2_goal_updated_condition_bt_node
+[18.120s] [35m[1mScanning dependencies of target nav2_rate_controller_bt_node[0m
+[18.153s] [ 18%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[18.157s] [ 19%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[18.204s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[18.452s] [ 20%] Built target nav2_pipeline_sequence_bt_node
+[18.515s] [35m[1mScanning dependencies of target nav2_distance_controller_bt_node[0m
+[18.552s] [ 20%] Built target nav2_initial_pose_received_condition_bt_node
+[18.598s] [35m[1mScanning dependencies of target nav2_round_robin_node_bt_node[0m
+[18.688s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[18.696s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[19.760s] [ 23%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[20.635s] [ 23%] Built target nav2_behavior_tree
+[20.706s] [35m[1mScanning dependencies of target nav2_clear_costmap_service_bt_node[0m
+[20.906s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[21.980s] [ 25%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[22.353s] [ 25%] Built target nav2_time_expired_condition_bt_node
+[22.389s] [35m[1mScanning dependencies of target nav2_speed_controller_bt_node[0m
+[22.423s] [ 26%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[22.577s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[22.894s] [ 27%] Built target nav2_round_robin_node_bt_node
+[22.964s] [35m[1mScanning dependencies of target nav2_truncate_path_action_bt_node[0m
+[23.154s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[23.891s] [ 29%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[24.019s] [ 30%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[24.069s] [ 31%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[24.338s] [ 31%] Built target nav2_rate_controller_bt_node
+[24.341s] [ 32%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[24.398s] [35m[1mScanning dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[24.433s] [ 33%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[24.545s] [ 33%] Built target nav2_transform_available_condition_bt_node
+[24.555s] [ 33%] Built target nav2_reinitialize_global_localization_service_bt_node
+[24.574s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[24.627s] [35m[1mScanning dependencies of target nav2_back_up_action_bt_node[0m
+[24.664s] [35m[1mScanning dependencies of target nav2_recovery_node_bt_node[0m
+[24.729s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[24.809s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[24.815s] [ 36%] Built target nav2_spin_action_bt_node
+[24.879s] [35m[1mScanning dependencies of target gtest[0m
+[24.963s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[25.132s] [ 37%] Built target nav2_goal_reached_condition_bt_node
+[25.225s] [35m[1mScanning dependencies of target gtest_main[0m
+[25.319s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[26.427s] [ 39%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.533s] [ 39%] Built target gtest_main
+[26.956s] [ 40%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[27.052s] [ 41%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[27.243s] [ 42%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[27.466s] [ 42%] Built target nav2_wait_action_bt_node
+[27.675s] [ 42%] Built target nav2_distance_traveled_condition_bt_node
+[27.709s] [ 42%] Built target nav2_follow_path_action_bt_node
+[28.151s] [ 43%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[28.517s] [ 44%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[28.572s] [ 44%] Built target nav2_recovery_node_bt_node
+[28.972s] [ 44%] Built target nav2_compute_path_to_pose_action_bt_node
+[29.813s] [ 45%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[29.897s] [ 46%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[30.102s] [ 46%] Built target nav2_distance_controller_bt_node
+[30.124s] [ 47%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[30.191s] [ 47%] Built target nav2_clear_costmap_service_bt_node
+[30.359s] [ 47%] Built target nav2_is_battery_low_condition_bt_node
+[30.439s] [ 48%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[30.635s] [ 48%] Built target nav2_is_stuck_condition_bt_node
+[30.838s] [ 50%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[30.989s] [ 51%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[31.033s] [ 51%] Built target nav2_goal_updater_node_bt_node
+[31.168s] [ 51%] Built target nav2_truncate_path_action_bt_node
+[31.732s] [ 52%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[31.974s] [ 52%] Built target nav2_speed_controller_bt_node
+[32.680s] [ 53%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[32.854s] [ 53%] Built target nav2_navigate_to_pose_action_bt_node
+[33.273s] [ 54%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[33.435s] [ 54%] Built target nav2_back_up_action_bt_node
+[34.253s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.286s] [ 55%] Built target gtest
+[34.297s] [35m[1mScanning dependencies of target test_bt_conversions[0m
+[34.298s] [35m[1mScanning dependencies of target test_condition_distance_traveled[0m
+[34.298s] [35m[1mScanning dependencies of target test_condition_time_expired[0m
+[34.298s] [35m[1mScanning dependencies of target test_condition_initial_pose_received[0m
+[34.298s] [35m[1mScanning dependencies of target test_condition_goal_updated[0m
+[34.299s] [35m[1mScanning dependencies of target test_condition_is_battery_low[0m
+[34.300s] [35m[1mScanning dependencies of target test_condition_transform_available[0m
+[34.300s] [35m[1mScanning dependencies of target test_goal_updater_node[0m
+[34.303s] [35m[1mScanning dependencies of target test_condition_is_stuck[0m
+[34.324s] [35m[1mScanning dependencies of target test_condition_goal_reached[0m
+[34.331s] [35m[1mScanning dependencies of target test_decorator_speed_controller[0m
+[34.351s] [35m[1mScanning dependencies of target test_decorator_rate_controller[0m
+[34.354s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o[0m
+[34.358s] [35m[1mScanning dependencies of target test_decorator_distance_controller[0m
+[34.375s] [35m[1mScanning dependencies of target test_control_round_robin_node[0m
+[34.381s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[34.381s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[34.390s] [ 59%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[34.391s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[34.405s] [ 61%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[34.411s] [35m[1mScanning dependencies of target test_control_pipeline_sequence[0m
+[34.413s] [ 62%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[34.436s] [ 63%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[34.454s] [ 64%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[34.459s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[34.465s] [35m[1mScanning dependencies of target test_control_recovery_node[0m
+[34.465s] [ 66%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[34.503s] [ 67%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[34.508s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[34.525s] [ 69%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[34.538s] [ 70%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[34.630s] [ 71%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[40.687s] [ 72%] [32m[1mLinking CXX executable test_bt_conversions[0m
+[41.532s] [ 72%] Built target test_bt_conversions
+[41.642s] [35m[1mScanning dependencies of target test_truncate_path_action[0m
+[41.897s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[46.344s] [ 74%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[46.734s] [ 75%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[47.285s] [ 75%] Built target test_goal_updater_node
+[47.348s] [35m[1mScanning dependencies of target test_action_navigate_to_pose_action[0m
+[47.377s] [ 75%] Built target test_condition_goal_reached
+[47.441s] [35m[1mScanning dependencies of target test_action_follow_path_action[0m
+[47.535s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[47.612s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[48.988s] [ 78%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[49.355s] [ 79%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[49.467s] [ 80%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[49.622s] [ 80%] Built target test_condition_distance_traveled
+[50.107s] [ 80%] Built target test_decorator_distance_controller
+[50.261s] [ 80%] Built target test_decorator_rate_controller
+[51.047s] [ 81%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[51.195s] [ 82%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[51.336s] [ 83%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[51.336s] [ 84%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[51.521s] [ 85%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[51.591s] [ 86%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[51.745s] [ 86%] Built target test_control_pipeline_sequence
+[51.813s] [ 87%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[51.914s] [ 87%] Built target test_condition_goal_updated
+[51.930s] [ 87%] Built target test_condition_is_battery_low
+[52.161s] [ 87%] Built target test_condition_initial_pose_received
+[52.189s] [ 87%] Built target test_control_round_robin_node
+[52.194s] [ 87%] Built target test_condition_time_expired
+[52.405s] [ 88%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[52.405s] [ 88%] Built target test_decorator_speed_controller
+[52.557s] [ 89%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[52.752s] [ 90%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[52.754s] [ 91%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[52.829s] [ 91%] Built target test_condition_is_stuck
+[52.974s] [ 91%] Built target test_control_recovery_node
+[53.082s] [ 91%] Built target test_truncate_path_action
+[53.102s] [ 91%] Built target test_condition_transform_available
+[57.134s] [ 92%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[57.189s] [ 93%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[57.339s] [ 93%] Built target test_action_navigate_to_pose_action
+[57.378s] [ 93%] Built target test_action_follow_path_action
+[57.388s] [35m[1mScanning dependencies of target test_action_clear_costmap_service[0m
+[57.424s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[61.445s] [ 95%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[61.619s] [ 95%] Built target test_action_clear_costmap_service
+[61.629s] [35m[1mScanning dependencies of target test_action_reinitialize_global_localization_service[0m
+[61.629s] [35m[1mScanning dependencies of target test_action_compute_path_to_pose_action[0m
+[61.665s] [ 96%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[61.669s] [ 97%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[67.407s] [ 98%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[67.640s] [ 98%] Built target test_action_reinitialize_global_localization_service
+[69.937s] [100%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[70.178s] [100%] Built target test_action_compute_path_to_pose_action

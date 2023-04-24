@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/dwb_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/zed-ros2-wrapper/zed_wrapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper
+[0.051s] -- Found CUDA: /usr/local/cuda (found suitable version "11.7", minimum required is "11") 
+[0.081s] -- Found CUDA: /usr/local/cuda (found version "11.7") 
+[0.082s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.098s] -- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/envs/rosEnv/bin/python3
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.227s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.370s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.473s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.511s] -- Found zed_components: 0.2.0 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components/share/zed_components/cmake)
+[0.836s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.273s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.533s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.534s] -- Configured cppcheck include dirs: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/zed-ros2-wrapper/zed_wrapper/src
+[1.534s] -- Configured cppcheck exclude dirs and/or files: 
+[1.535s] -- Added test 'lint_cmake' to check CMake code style
+[1.535s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.536s] -- Added test 'uncrustify' to check C / C++ code style
+[1.536s] -- Configured uncrustify additional arguments: 
+[1.536s] -- Added test 'xmllint' to check XML markup files
+[1.539s] -- Configuring done
+[1.581s] -- Generating done
+[1.583s] -- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/zed_wrapper

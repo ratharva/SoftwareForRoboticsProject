@@ -1,0 +1,10 @@
+[01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:18:[m[K [01;31m[Kerror: [m[K‘[01m[KQMetaObject::SuperData[m[K’ has not been declared
+  142 |     QMetaObject::[01;31m[KSuperData[m[K::link<rviz_common::Panel::staticMetaObject>(),
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp:142:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  142 |     QMetaObject::SuperData::link<rviz_common::Panel::staticMetaObject>([01;31m[K)[m[K,
+      |                                                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/SlamToolboxPlugin.dir/build.make:80: CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:309: CMakeFiles/SlamToolboxPlugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

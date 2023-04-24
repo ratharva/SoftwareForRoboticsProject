@@ -1,0 +1,60 @@
+[0.053s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_planner': AMENT_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_core:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_voxel_grid:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_core:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_voxel_grid:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_ros2:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_wrapper:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_components:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/zed_interfaces:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_desktop:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_viz:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_simulator:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_navigation:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_msgs:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_gazebo:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_control:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/jackal_description:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_voxel_grid/lib:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_msgs/lib/python3.9/site-packages:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_planner
+[0.107s] -- The C compiler identification is GNU 9.4.0
+[0.167s] -- The CXX compiler identification is GNU 9.4.0
+[0.173s] -- Check for working C compiler: /usr/bin/cc
+[0.246s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.247s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.344s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.429s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.534s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.574s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+[0.574s] -- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+[0.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.945s] -- Found nav2_common: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_common/share/nav2_common/cmake)
+[0.948s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.023s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.101s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.130s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.259s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.262s] -- Looking for pthread.h
+[1.325s] -- Looking for pthread.h - found
+[1.325s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.399s] -- Looking for pthread_create in pthreads
+[1.446s] -- Looking for pthread_create in pthreads - not found
+[1.446s] -- Looking for pthread_create in pthread
+[1.512s] -- Looking for pthread_create in pthread - found
+[1.513s] -- Found Threads: TRUE  
+[1.680s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.764s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.799s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.918s] -- Found nav2_util: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_util/share/nav2_util/cmake)
+[2.505s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.510s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.631s] -- Found nav2_costmap_2d: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.325s] -- Found nav2_core: 0.4.7 (/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_core/share/nav2_core/cmake)
+[3.753s] -- Setting build type to Release as none was specified.
+[7.267s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.359s] -- Configured cppcheck include dirs: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/navigation2/nav2_planner/include
+[7.359s] -- Configured cppcheck exclude dirs and/or files: 
+[7.360s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.360s] -- Configured cpplint exclude dirs and/or files: 
+[7.360s] -- Added test 'lint_cmake' to check CMake code style
+[7.361s] -- Added test 'uncrustify' to check C / C++ code style
+[7.361s] -- Configured uncrustify additional arguments: 
+[7.362s] -- Added test 'xmllint' to check XML markup files
+[7.367s] -- Configuring done
+[7.420s] -- Generating done
+[7.421s] -- Build files have been written to: /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_planner

@@ -1,0 +1,25 @@
+[0.718s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner/prefix_override:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner/build --no-deps install_data
+[0.918s] running develop
+[1.021s] running egg_info
+[1.021s] creating nav2_gazebo_spawner.egg-info
+[1.021s] writing nav2_gazebo_spawner.egg-info/PKG-INFO
+[1.021s] writing dependency_links to nav2_gazebo_spawner.egg-info/dependency_links.txt
+[1.021s] writing entry points to nav2_gazebo_spawner.egg-info/entry_points.txt
+[1.022s] writing requirements to nav2_gazebo_spawner.egg-info/requires.txt
+[1.022s] writing top-level names to nav2_gazebo_spawner.egg-info/top_level.txt
+[1.025s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.054s] reading manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.054s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.090s] running build_ext
+[1.090s] Creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/site.py
+[1.094s] Creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+[1.095s] Installing nav2_gazebo_spawner script to /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[1.095s] 
+[1.095s] Installed /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner
+[1.095s] running install_data
+[1.095s] creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/share/ament_index
+[1.095s] creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+[1.095s] creating /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.095s] copying resource/nav2_gazebo_spawner -> /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.096s] copying package.xml -> /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner
+[1.173s] Invoked command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner/prefix_override:/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/nav2_gazebo_spawner/build --no-deps install_data

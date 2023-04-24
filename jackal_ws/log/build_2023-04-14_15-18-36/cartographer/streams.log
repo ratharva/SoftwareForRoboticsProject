@@ -1,0 +1,58 @@
+[0.043s] Invoking command in '/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/install/cartographer
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.245s] -- The CXX compiler identification is GNU 9.4.0
+[0.253s] -- Check for working C compiler: /usr/bin/cc
+[0.329s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.331s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.405s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.495s] -- Detecting CXX compiler ABI info
+[0.582s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.585s] -- Build type: Release
+[0.586s] Files /home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/cartographer/AllFiles.cmake and - differ
+[0.615s] CMake Warning at /usr/src/googletest/googlemock/CMakeLists.txt:43 (project):
+[0.615s]   VERSION keyword not followed by a value or was followed by a value that
+[0.615s]   expanded to nothing.
+[0.615s] 
+[0.616s] 
+[0.616s] CMake Warning at /usr/src/googletest/googletest/CMakeLists.txt:54 (project):
+[0.616s]   VERSION keyword not followed by a value or was followed by a value that
+[0.616s]   expanded to nothing.
+[0.616s] 
+[0.617s] 
+[0.644s] -- Found PythonInterp: /home/atharva/anaconda3/bin/python (found version "3.9.13") 
+[0.644s] -- Looking for pthread.h
+[0.710s] -- Looking for pthread.h - found
+[0.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.772s] -- Looking for pthread_create in pthreads
+[0.820s] -- Looking for pthread_create in pthreads - not found
+[0.820s] -- Looking for pthread_create in pthread
+[0.874s] -- Looking for pthread_create in pthread - found
+[0.875s] -- Found Threads: TRUE  
+[0.880s] -- Found GMock: gmock_main;-lpthread  
+[0.889s] CMake Error at CMakeLists.txt:32 (find_package):
+[0.889s]   By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+[0.889s]   asked CMake to find a package configuration file provided by "absl", but
+[0.890s]   CMake did not find one.
+[0.890s] 
+[0.890s]   Could not find a package configuration file provided by "absl" with any of
+[0.890s]   the following names:
+[0.890s] 
+[0.890s]     abslConfig.cmake
+[0.890s]     absl-config.cmake
+[0.890s] 
+[0.890s]   Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+[0.890s]   "absl_DIR" to a directory containing one of the above files.  If "absl"
+[0.890s]   provides a separate development package or SDK, be sure it has been
+[0.890s]   installed.
+[0.890s] 
+[0.890s] 
+[0.890s] -- Configuring incomplete, errors occurred!
+[0.890s] See also "/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/cartographer/CMakeFiles/CMakeOutput.log".
+[0.890s] See also "/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/cartographer/CMakeFiles/CMakeError.log".

@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+CMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "FindOPENCV.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OPENCV", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OPENCV" with any
+  of the following names:
+
+    OPENCVConfig.cmake
+    opencv-config.cmake
+
+  Add the installation prefix of "OPENCV" to CMAKE_PREFIX_PATH or set
+  "OPENCV_DIR" to a directory containing one of the above files.  If "OPENCV"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/atharva/Atharva/NCSU/SFRT/SoftwareForRoboticsProject/jackal_ws/build/jackal_gazebo/CMakeFiles/CMakeOutput.log".

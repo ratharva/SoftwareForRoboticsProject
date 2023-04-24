@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/atharva/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+CMake Error at CMakeLists.txt:17 (add_executable):
+  Cannot find source file:
+
+    src/jackal_simulator/jackal_gazebo/src/qr_webcam.py
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:17 (add_executable):
+  No SOURCES given to target: qr_webcam
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

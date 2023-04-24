@@ -4,7 +4,7 @@ import cv2
 
 print(cv2.__version__)
 
-myImg = cv2.imread("./TempQr.png")
+# myImg = cv2.imread("./TempQr.png")
 
 myQrDetector = cv2.QRCodeDetector()
 

@@ -5,4 +5,4 @@ myDat = "Robot_" + str(uuid.uuid4())
 
 myQrImage = qrcode.make(myDat)
 
-myQrImage.save("./TempQr.png")
+myQrImage.save("./TempQr2.png")
